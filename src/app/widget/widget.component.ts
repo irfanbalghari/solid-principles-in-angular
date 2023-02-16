@@ -35,7 +35,7 @@ import { WidgetBase } from './widget-base';
 export class WidgetComponent extends WidgetBase {
   onExportJson(): void {
     super.onExportJson();
-    console.log('... aditional logic ...');
+    console.log('... additional logic ...');
     // ... but it should not break a contract with Base class
   }
 }
